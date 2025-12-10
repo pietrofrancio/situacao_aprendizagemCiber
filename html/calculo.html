@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeito Fotovoltaico </title>
+    <script src="../js/prog.js"defer></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Pietro</h1>
+
+    <nav>
+        <a href="../index.html">Início</a>
+        <a href="./contato.html">Contato</a>
+    </nav>
+</header>
+<main>
+    <h2 class="titulo-principal">Efeito Fotovoltaico</h2>
+    <hr>
+    
+    <section class="centraliza">
+        <div class="calc">
+        <h2>Informe o consumo mensal de energia</h2>
+    
+        <input type="number" id="consumoMensal" placeholder="Ex: 300 kWh"><br><br>
+    
+        <div class="obs">Obs: a média de geração de kWh no Brasil é 40 kWh/m²/dia</div>
+            
+        <button onclick="calcular()">Calcular</button><br><br>
+        <div id="res"></div>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>&copy; Pietro Francio de Miranda</p>
+</footer>
+</body>
+</html>
